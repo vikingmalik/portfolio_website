@@ -1,0 +1,88 @@
+body{
+    background-color:beige;
+}
+/* hero background image*/
+.bgimage {
+    height:100vh;
+    width:100%;
+    background: url('images/demo.jpg');
+    background-size:cover;
+    
+    background-size: 3;
+}
+.hero_title{
+    text-align: center;
+    margin-top: 50%;
+    margin-right: 30%;
+    font-style: italic;
+    
+}
+.hero_desc{
+    text-align: center;
+    margin-right: 30%;
+    margin-bottom: 50%;
+    font-style: italic;
+    text-decoration-color: dimgray;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 50vh;
+    height: 50vh;
+    margin-left: 30%;
+    font-style: calc();
+    font-weight: 100;
+    
+}
+.about-text {
+    /* Font styles for general text content */
+    font-family: fantasy; /* Example font family */
+    font-size: 16px; /* Example font size */
+    font-weight: normal; 
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
