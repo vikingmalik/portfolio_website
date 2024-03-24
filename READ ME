@@ -1,0 +1,8 @@
+files in folder are:
+1.index.html
+2.style.css
+3.script folder
+4.server.js
+5.package.json
+6.package-lock.json
+after creating these we log into the node server then directed to the portfolio website
